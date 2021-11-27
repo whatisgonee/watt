@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<title>watt</title>
-		<meta charset="UTF-8">
+		<meta charset="UTF-8"></meta>
 		<style>
 			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Outfit&display=swap');
 
@@ -175,10 +175,27 @@
 			.showcase a:hover {
 				opacity: 60%;
 			}
+
+			#certificates {
+				/*position: relative;*/
+				display: flex;
+				flex-direction: row-reverse;
+				justify-content: space-between;
+				flex: 1;
+			}
+
+			#certificates a {
+				transition: 0.5s;
+			}
+
+			#certificates a:hover {
+				opacity: 60%;
+			}
 		</style>
 	</head>
 
 	<body>
+		<div id="cover"></div>
 		<div id="navbar">
 			<div id="title">watt <img src="https://img.icons8.com/material-outlined/24/ffffff/lightning-bolt--v1.png"/></div>
 			<div id="message"></div>
@@ -241,6 +258,15 @@
 				<br>
 				<span style="font-size:25px">Honorable mentions</span>
 				<p>I have countless of unfinished, abandoned projects which gather dust on my computer, or which have been long forgotten and don't exist anymore. Another work that I have done is an online shop (with no online payment) which I've made for my cousing. It's not good and I didn't like it, so I will not put a link <a href="https://www.patreon.com/sodikken" target="_blank">right here</a> so that nobody ever sees it.<br>If you're curious if my cousin liked it, yes, but she doesn't use it.</p>
+			</div>
+
+			<div class="paragraph">
+				<a class="heading">Certificates</a>
+				<p>Here are a few of my certificates I've earned on <a href="https://www.freecodecamp.org">FreeCodeCamp</a> so far:</p>
+				<div id="certificates">
+					<a href="https://freecodecamp.org/certification/whatwastaken/responsive-web-design"><img src="WebDesignCertifcate.png" width="90%"></a>
+					<a href="https://freecodecamp.org/certification/whatwastaken/javascript-algorithms-and-data-structures"><img src="JavascriptCertificate.png" width="90%"></a>
+				</div>
 			</div>
 
 			<div class="paragraph">
